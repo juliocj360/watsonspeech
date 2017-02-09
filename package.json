@@ -1,0 +1,37 @@
+{
+  "name": "watsonspeech",
+  "version": "1.0.0",
+  "description": "Test repo for IBM Watson's text to speech",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node .",
+    "watch": "nodemon",
+    "bundle": "browserify -t babelify public/main.js -o public/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocj360/watsonspeech.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliocj360/watsonspeech/issues"
+  },
+  "homepage": "https://github.com/juliocj360/watsonspeech#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "watson-developer-cloud": "^2.17.0",
+    "watson-speech": "^0.31.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.22.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "nodemon": "^1.11.0"
+  }
+}
